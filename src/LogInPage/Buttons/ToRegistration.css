@@ -1,0 +1,20 @@
+.ToRegistrationButton{
+    margin-top: 20px;
+    color:blue;
+    font-size: large;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+
+    border:0;
+
+    background-color: white;
+
+}
+.ToRegistrationButton:hover{
+
+    font-weight: 500;
+
+    color:springgreen;
+    transition: 0.3s;
+
+}

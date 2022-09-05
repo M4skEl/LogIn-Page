@@ -1,0 +1,31 @@
+.checkRemember{
+    cursor: pointer;
+}
+.checkboxInput{
+    opacity: 0;
+    cursor: pointer;
+
+    /* width: 1em;
+     height: 1em;*/
+}
+
+.checkboxIcon{
+    width: 1.375em;
+    height: 1.375em;
+    flex-shrink: 0;
+    overflow: visible;
+}
+.checkboxIcon .tick{
+    stroke-dasharray: 20px;
+    stroke-dashoffset: 20px;
+    transition: stroke-dashoffset 0.2s ease-out;
+}
+
+.checkboxLabel {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90%;
+    font-weight: normal;
+}
+.checkboxInput:checked + .checkboxIcon .tick{
+    stroke-dashoffset: 0;
+}

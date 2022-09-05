@@ -1,0 +1,47 @@
+.incorrectDataSent{
+    padding-top:15px;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.LogInButton:disabled{
+    background-color: grey;
+    color: lightblue;
+    opacity: 70%;
+    transition: 0.4s;
+}
+.LogInButton{
+
+    margin-top: 30px;
+    margin-left: 18%;
+    padding: 20px;
+    width: 64%;
+
+    display: flex;
+    justify-content: center;
+
+    color:dodgerblue;
+    font-size: 125%;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    background-color: white;
+
+    transition: 1s;
+}
+.LogInButton:enabled:hover{
+    background-color: springgreen;
+    cursor: crosshair;
+}
+
+.UnderLoginButton{
+    margin-top: 10px;
+    display: flex;
+    height: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
